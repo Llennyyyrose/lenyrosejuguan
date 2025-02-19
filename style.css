@@ -1,0 +1,39 @@
+.navbar {
+    background-color: rgb(36, 25, 190);
+    height: 10vh;
+
+}
+.navbar .nav-link {
+    color: rgb(25, 143, 35);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.btn {
+    padding: 12px 30px ;
+    font-weight: 900;
+    font-size: 18px;
+}
+.btn-bembang {
+    background-color: rgb(168, 29, 161);
+    border: 2px solid #000 ;
+    border-radius: 60PX;
+    transition: all ease-in 0.5s;
+}
+.btn-bembang:hover {
+    color:pink;
+    border: 2px solid #839b1a;
+}
+.hays{
+    width: 6%;
+}
+.banner{
+    background:  linear-gradient(90deg, rgb(76, 72, 151) 0%, rgba(1, 17, 19, 0.384) 0%, rgb(148, 159, 161) 100%), url(kk.jpeg);
+    height: 100vh;
+    background-size: cover;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.banner p{
+    color: violet;
+    font-size: 20px;
+}
