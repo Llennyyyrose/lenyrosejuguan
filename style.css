@@ -37,3 +37,48 @@
     color: violet;
     font-size: 20px;
 }
+.section{
+    padding: 100px 0;
+}
+#about h2, #about h3 {
+   text-transform: uppercase;
+   font-weight: 800;
+}
+#about h3 {
+    color: #358b40;
+}
+#about img {
+    border: 4px slateblue;
+    box-shadow: 0 0 15px 0 rgb(7, 4, 48);
+    border-radius: 25px;
+}
+.card-img-top {
+    width: 35%;
+}
+.card{
+    padding: 25px 20px;
+    transition: all ease-in 0.5s;
+    border: 4px slateblue;
+    box-shadow: 0 0 15px 0 rgb(7, 4, 48);
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.card :hover{
+    background-color: aqua;
+    box-shadow: #839b1a;
+}
+.card:hover .card-title,
+.card:hover .card-text{
+    color: aquamarine;
+}
+#services h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 55px;
+    color: purple;
+    margin-bottom: 30px;
+}
+#services{
+    background: #000;
+}
